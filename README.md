@@ -1,4 +1,4 @@
-| Name | NRP |
+| **Name** | **NRP** |
 | ---- | --- |
 | Irsyad Fikriansyah Ramadhan | 5025211149 |
 
@@ -17,7 +17,7 @@ flutter pub add --dev build_runner objectbox_generator:any
 
 ### Defining a Data Model
 
-1. Create a new Dart file, e.g., `model.dart`.
+1. Create a file like `lib/models/model.dart`.
 2. Import the ObjectBox package:
 
 ```dart
@@ -45,3 +45,17 @@ class Employee {
     });
 }
 ```
+
+Note: when using ObjectBox in a Flutter app (mobile or desktop), the data is stored locally on the device — like a lightweight database file.
+
+<hr>
+
+References:
+
+ios emulator:
+- https://youtu.be/343PpFsTDvM
+
+ObjectBox
+- https://docs.objectbox.io/
+- https://youtu.be/6YPSQPS_bhU
+- https://youtu.be/BBlr8F8m9lo
